@@ -3,15 +3,13 @@
 +
 +
 -Written in JavaScript
--Tested with NPM
--Deployed using  ***
 
 
 
 ### User Stories
 
 As a player
-I would like to play rock, paper, scissors in a web app
+I would like to Roshambo in a web app
 
 ***Tasks
 

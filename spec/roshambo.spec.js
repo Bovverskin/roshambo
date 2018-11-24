@@ -1,4 +1,7 @@
-const { Roshambo } = require('./spec.helper');
+const { roshambo } = require('./spec.helper')
+const mockMath = Object.create(global.Math);
+mockMath.random = () => .5;
+global.Math = mockMath;
 
 describe('Roshambo', function() {
     let roshambo = new Roshambo();

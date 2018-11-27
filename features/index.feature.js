@@ -15,8 +15,4 @@ describe('sample UI test', () => {
   after(async () => {
     await browser.close();
   });
- 
-  it('/* description inserted here */', async () => {
-    //  Write tour scenario  
-  });
 });

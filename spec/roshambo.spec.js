@@ -4,7 +4,7 @@ mockMath.random = () => .5;
 global.Math = mockMath;
 
 describe('Roshambo', function() {
-    let roshambo = new Roshambo();
+    let rps = new Roshambo();
 
     it('should return "YOU WIN! The Computer chose paper"', () => {
         expect(roshambo.play("scissors")).to.eql("WINNER! The Computer chose paper")

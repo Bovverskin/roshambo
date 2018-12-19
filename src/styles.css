@@ -5,12 +5,12 @@
 }
 
 body {
-    background-color: white
+    background-color: burlywood
 }
 
 header > h1 {
 
-    color:  #851709;
+    color:  yellowgreen;
     padding: 10px;
     text-align: center;
     font-family: Stencil Std, fantasy;
@@ -47,7 +47,7 @@ img {
     width: 350px;
     padding: 10px;
     border-radius: 15px;
-    border: 15px solid #851709;
+    border: 15px solid #b2df0f;
     margin: 25;
     font-size: 25px;
     color: black;

@@ -11,18 +11,13 @@
     </style>
 </head>
 <body>
-    <h1>Roshambo</h1>
-        <div class="row">
-        <div class="text-center font-Sans-serif">
-            <div class="column">
-                
-            </div>
-        </div>
 
     <header>
-        <h1>Make Your Choice</h1>
-            <div class= "comchoice">
-            <div class= "text-center font-Sans-serif" id="result"></div>
+    <h1>Roshambo</h1>
+    <h1>Make Your Choice</h1>
+    <div class= "comchoice">
+    <div class= "text-center font-Sans-serif" id="result"></div>
+    </div>
     </header>
  
     <div class="buttons">
@@ -52,22 +47,22 @@
         let displayDiv = document.getElementById('result')
 
         rock.addEventListener('click', () => { 
-            let result = rps.play("rock")
+            let result = roshambo.play("rock")
             let value = document.getElementById('rock').value
             displayDiv.innerHTML = result;
         })
         paper.addEventListener('click', () => { 
-            let result = rps.play("paper")
+            let result = roshambo.play("paper")
             let value = document.getElementById('paper').value
             displayDiv.innerHTML = result;
         })
         scissors.addEventListener('click', () => { 
-            let result = rps.play("scissors")
+            let result = roshambo.play("scissors")
             let value = document.getElementById('scissors').value
             displayDiv.innerHTML = result;
         })
     })
 </script>  
-</div> 
+    </div> 
 </body>
 </html>

@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Bovverskin/roshambo.git#readme",
   "devDependencies": {
+    "chai": "^4.2.0",
     "e2e_training_wheels": "0.0.15"
   }
 }

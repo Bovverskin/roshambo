@@ -3,4 +3,4 @@ const chai = require('chai');
 global.expect = chai.expect;
 
 let roshambo = fs.readFileSync('./src/js/roshambo.js');
-eval( roshambo + `\nexports.roshambo = roshambo;`)
+eval( roshambo + `\nexports.Roshambo = Roshambo;`)

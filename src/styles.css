@@ -36,19 +36,20 @@ img {
 
 
 .comchoice{
-    background-color: lightskyblue;
+    background-color: rgb(97, 143, 241);
     position: center;
     top: 25%;
     left: 50%;
+    right: 50%;
     margin-top: 50px;
-    margin-left: 555px;
+    margin-left: 450px;
     height: 130px;
     width: 350px;
     padding: 10px;
     border-radius: 15px;
-    border: 15px solid #af00a1;
+    border: 15px solid rgb(15, 214, 91);
     margin: 25;
-    font-size: 50px;
+    font-size: 20px;
     color: black;
     text-align: center;
     font-weight: bold;
